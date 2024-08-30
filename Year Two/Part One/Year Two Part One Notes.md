@@ -1,0 +1,5 @@
+- [[Assignments Notes]]
+- [[Computer Network Notes]]
+- [[Computer Organization Notes]]
+- [[General Management Notes]]
+- [[Lab 3]]

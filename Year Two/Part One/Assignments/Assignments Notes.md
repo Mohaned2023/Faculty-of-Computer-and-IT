@@ -1,0 +1,5 @@
+1. [[AS Computer Network]]
+2. [[AS Computer Network Practical]]
+3. [[AS Computer Organization]]
+4. [[AS OOP]]
+5. [[AS Web Design Practical]]
