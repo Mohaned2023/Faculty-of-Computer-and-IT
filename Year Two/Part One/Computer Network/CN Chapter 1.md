@@ -61,7 +61,7 @@ The Network Nodes can be:
 11. **Forums:** *work with universities and users to test, evaluate, and standardize new technologies.*
 12. **[[#^27baa3|RFC]]:** *It is a type of document or publication issued by the Internet Engineering Task Force (IETF) and the Internet Society, which are the two primary bodies for developing and setting standards for the Internet.* ^818cec
 #### Abbreviations:
-1. **ISO:** *Inteenational Organization for Standardization.* ^437c37
+1. **ISO:** *International Organization for Standardization.* ^437c37
 2. **ITU-T:** *International Telecommunication Union - Telecommuniction Standardization Sector.* ^d1df25
 3. **ANSI:** *American National Standards Institute.* ^31e2f5
 4. **IEEE:** *Institute of Electrical and Electronics Engineers.* ^f096bd

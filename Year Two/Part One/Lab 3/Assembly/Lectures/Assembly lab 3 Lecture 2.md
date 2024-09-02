@@ -41,6 +41,37 @@
 	- Fetching instructions from [[#^53d1c0|QR]] in [[#^422380|BIU]].
 	- Decoding arithmetic and logic operations (via the [[#^893e17|DU]])
 	- Executing arithmetic and logic operations (via the  [[CO Chapter 1#^f6d67f|ALU]]).
+
+#### Flags/ status register (FR):
+ - This register is 16 bits in width. 9 of the 16 bits are for the flags which stores status information about the result of the previous operation done by the ALU.
+ - The flags are of 2 types:
+	 - Conditional/ status flags
+		1. [[#^f963bb|CF]]
+		2. [[#^98068e|PF]]
+		3. [[#^cca1e7|AF]]
+		4. [[#^eb1322|ZF]]
+		5. [[#^b1078e|SF]]
+		6. [[#^5e10c0|OF]]
+	- Control flags
+		1. [[#^e894ee|TF]]
+		2. [[#^efcae8|IF]]
+		3. [[#^b91ddf|DF]]
+
+#### General purpose registers (GPRs):
+> [!NOTE]
+> There are 4 general registers in the 8086 microprocessor: AX, BX, CX, and DX. Each register is 16 bits in width and is divided into two 8 bits parts (higher and lower) as shown below.
+
+- **What are GPRs used for?**
+	- ? AX register: (Combination of AL and AH Registers)
+		- It holds operands and results during Arithmetical operations. Also an accumulator during String operations.
+	- ? BX register: (Combination of BL and BH Registers)
+		- It holds the memory address (offset address) in indirect addressing modes.
+	- ? CX register: (Combination of CL and CH Registers)
+		- It holds the count for instructions like a loop, rotates, shifts and string operations.
+	- ? DX register: (Combination of DL and DH Registers)
+		- It is used with AX to hold 32-bit values during multiplication and division.
+> [!TIP]
+> In general: GPRs are used to temporarily store data to increase the speed of accessing data because data stored in GPRs could be accessed much faster than if they were stored in the ROM.
 #### Definitions:
 1. **Address bus:** *20 bits in width therefore can address up to 1 MB of memory, and is used to send the memory address of the instruction or data being read or written.* ^8646db
 2. **Data bus:** *16 bits in width and responsible for transferring data between the microprocessor and memory or I/O devices.* ^53d2b4
@@ -50,6 +81,15 @@
 6. **[[#^3cad33|CU]]:** *It is responsible for directing the internal operations within the microprocessor through control signals.*
 7. **[[#^893e17|DU]]:** *It is responsible for decoding arithmetic and logic operations brought from the ROM.*
 8. **[[CO Chapter 1#^f6d67f|ALU]]:** *It is responsible for executing 8 and 16-bit arithmetic and logic operations.*
+9. **[[#^801628|CF]]:** *Indicates when an arithmetic operation generates a carry or a borrow out of the most significant bit.* ^f963bb
+10. **[[#^b0c475|PF]]:** *Shows if the number of set bits in the result is even (parity is even) or odd (parity is odd).* ^98068e
+11. **[[#^04a8bd|AF]]:** *Set when a carry or borrow occurs between the lower nibble (4 bits) of an 8-bit number.* ^cca1e7
+12. **[[#^8c805c|ZF]]:** *Set if the result of an operation is zero.* ^eb1322
+13. **[[#^34d148|SF]]:** *Reflects the sign of the result; set if the result is negative.* ^b1078e
+14. **[[#^ef8032|OF]]:** *Set when an arithmetic operation produces a result too large for the destination operand.* ^5e10c0
+15. **[[#^b91ddf|TF]]:** *Allows the CPU to operate in single-step mode for debugging.* ^e894ee
+16. **[[#^f82582|IF]]:** *Controls the handling of interrupts; when set, the CPU recognizes external interrupts.* ^efcae8
+17. **[[#^4e3f13|DF]]:** *Determines the direction of string operations; set for decrementing and clear for incrementing.*
 #### Abbreviations:
 1. **BIU:** Bus Interface Unit. ^422380
 2. **EU:** Execution Unit. ^e9dcb4
@@ -64,3 +104,12 @@
 11. **FR/SR:** Flags/ Status Register. ^5e0cff
 12. **GPRs:** General Purpose Registers.  ^12f05e
 13. **SPRs:** Special Purpose Registers. ^efd6dc
+14. **CF:** Carry Flag. ^801628
+15. **PF:** Parity Flag. ^b0c475
+16. **AF:** Auxiliary Carry Flag. ^04a8bd
+17. **ZF:** Zero Flag. ^8c805c
+18. **SF:** Sign Flag. ^34d148
+19. **OF:** Overflow Flag. ^ef8032
+20. **TF:** Single Step Trap Flag/ Trap Flag. ^b91ddf
+21. **IF:** Interrupt Flag. ^f82582
+22. **DF:** Direction Flag. ^4e3f13
