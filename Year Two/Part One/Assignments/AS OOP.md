@@ -27,3 +27,16 @@
 		And 5 cases include dictionaries
 		Arrange the work in a way that gives me choices and I choose
 		Submit a copy of the code and a copy of the implementation
+-  [x] 06 
+	- Today's assignment (represents a midterm exam (previous) Allow the user to execute the program 6 times and allow the user to choose from 1... 6 using if and make each paragraph in a module 
+	1. Write a program to add five numbers entered by the user and find the average 
+	2. Write a program using functions that prints your name using function call 
+	3. Write a program that checks the entered numbers if they are positive, negative or zero 
+	4. Write a program that allows the user to display a list containing the names of three countries  and print them 
+	5. Write a program that contains the class Student and create three objects from it as follows 
+	Student1.a 
+	Student2.b 
+	Student3.c 
+	d. This class contains three variables, name and age, and prints them for each 
+	object using the method 
+	e. Distinguish one of the obj with a feature that differs from the others from calling variables using super f. Create an overrider for 2 methods 6. Write a program that calls a file with the extension doc or docx and write in it  Hi this is the final program a and print it on the screen
