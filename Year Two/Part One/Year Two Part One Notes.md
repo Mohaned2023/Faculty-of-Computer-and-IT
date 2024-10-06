@@ -2,4 +2,5 @@
 - [[Computer Network Notes]]
 - [[Computer Organization Notes]]
 - [[General Management Notes]]
+- [[Database Notes]]
 - [[Lab 3]]
