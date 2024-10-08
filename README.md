@@ -2,10 +2,10 @@
 
 > By Mohaned Sherhan 2024-2025
 
-## v1.1.1
+## v1.1.2
 
 - Added:
-    1. [DB Chapter 02](./Year%20Two/Part%20One/Database/DB%20Chapter%2002.md)
+    1. [DB Chapter 03](./Year%20Two/Part%20One/Database/DB%20Chapter%2003.md)
 
 - Modified:
     1. [Database Notes](./Year%20Two/Part%20One/Database/Database%20Notes.md).
