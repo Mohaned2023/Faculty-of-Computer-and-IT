@@ -2,13 +2,14 @@
 
 > By Mohaned Sherhan 2024-2025
 
-## v1.1.2
+## v1.1.3
 
 - Added:
-    1. [DB Chapter 03](./Year%20Two/Part%20One/Database/DB%20Chapter%2003.md)
+    1. [CO Chapter 5](./Year%20Two/Part%20One/Computer%20Organization/CO%20Chapter%205.md).
+    2. [CO Chapter 13](./Year%20Two/Part%20One/Computer%20Organization/CO%20Chapter%2013.md).
 
 - Modified:
-    1. [Database Notes](./Year%20Two/Part%20One/Database/Database%20Notes.md).
+    1. [Computer Organization Notes](./Year%20Two/Part%20One/Computer%20Organization/Computer%20Organization%20Notes.md).
 
 - Deleted: 
 
